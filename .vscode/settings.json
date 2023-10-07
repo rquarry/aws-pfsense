@@ -1,0 +1,9 @@
+{
+    "spellchecker.ignoreWordsList": [
+        "pfSense",
+        "Terraform",
+        "terraform",
+        "tfvars",
+        "Repo"
+    ]
+}
