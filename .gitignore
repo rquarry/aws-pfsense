@@ -8,3 +8,6 @@
 *.tfvars
 
 .terraform.lock.hcl
+
+# Don't track VS Code files
+.vscode

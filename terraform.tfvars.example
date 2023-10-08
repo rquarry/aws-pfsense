@@ -1,9 +1,9 @@
 region = "us-west-1"
 profile = "terraform"
 shared_credentials_file = "/home/user/.aws/credentials"
-public_key_name = "id_logger"
-public_key_path = "/home/user/.ssh/id_logger.pub"
-private_key_path = "/home/user/.ssh/id_logger"
+public_key_name = "id_pfsense"
+public_key_path = "/home/user/.ssh/id_pfsense.pub"
+private_key_path = "/home/user/.ssh/id_pfsense"
 ip_whitelist = ["1.2.3.4/32"]
 availability_zone = "us-west-1b"
 // instance_name_prefix = "some_prefix_"

@@ -4,6 +4,7 @@
         "Terraform",
         "terraform",
         "tfvars",
-        "Repo"
+        "Repo",
+        "json"
     ]
 }
