@@ -13,8 +13,12 @@ This is the Terraform representation of the [pfSense Plus for Amazon AWS](https:
 - Terraform setup with AWS credentials. The [Get Started - AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started) tutorials are a good start for this.
 - A security policy applied to your credentials that has, at minimum, the permissions listed in [policy.json]. "All" EC2 permissions is another, but less secure, avenue to take.
 - Rename [terraform.tfvars.example] tp terraform.tfvars and populate the variables with actual values.
-- Visit the Amazon marketplace and subscribe to access the pfSense AMI. This is still a "pay-per-use" AMI where. "Hourly users may cancel or stop using this service at any time". The whole subscription seems built around the EULA and pricing so more of a formality for my casual usage. 
+- Visit the Amazon marketplace and subscribe to access the pfSense AMI. This is still a "pay-per-use" AMI where, "Hourly users may cancel or stop using this service at any time". The whole subscription seems built around the EULA and pricing so more of a formality for my casual usage. 
 - Assuming your AMI is different, update it prior to running ```terraform plan```
+
+## Credits
+
+The AWS Terraform code from the Detection Lab project by Chris Long was used as the starting point for this project
 
 ---
 
